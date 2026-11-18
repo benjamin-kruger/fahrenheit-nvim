@@ -1,13 +1,10 @@
-# This project is no longer maintained
-I will no longer be maintaining personal code on GitHub.
-
 # Fahrenheit.nvim
 
 A Neovim colorscheme ported from the [iTerm2 Fahrenheit theme](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/windowsterminal/Fahrenheit.json).
 
 # Installation
 
-Using lazy.nvim:
+## lazy.nvim:
 
 ```lua
 return {
@@ -18,6 +15,12 @@ return {
     vim.cmd.colorscheme("fahrenheit")
   end,
 }
+```
+
+## vim.pack:
+```lua
+vim.pack.add({"https://github.com/benjamin-kruger/fahrenheit-nvim"})
+vim.cmd.colorscheme("fahrenheit")
 ```
 
 # Requirements
